@@ -1,0 +1,120 @@
+new branch
+
+git status // 
+
+git add * 
+
+git commit -m "modified directory structure | add new pages "
+
+push to uiintern branch
+
+// git push origin uiintern
+
+// firebase version
+
+fresh commiting in git 
+git status // for check status
+
+git init // for initializing the git repository
+
+git add * // for adding all the updated file
+
+git commit -m "message that you want " // this will track the file in create mode
+ 
+git branch -M main // transfer the branch to main 
+
+git remote add origin <link> // link which is available on repository
+
+git push origin main // push to repository
+
+for example:- 
+rakes@DESKTOP-R4406U6 MINGW64 /c/xampp/htdocs/learnphp
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+rakes@DESKTOP-R4406U6 MINGW64 /c/xampp/htdocs/learnphp
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/learnphp/.git/
+
+rakes@DESKTOP-R4406U6 MINGW64 /c/xampp/htdocs/learnphp (master)
+$ git status
+starting fsmonitor-daemon in 'C:/xampp/htdocs/learnphp'
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Form.php
+        Get_Post.php
+        MySQL_create_db.php
+        Select_data.php
+        database.txt
+        function.php
+        insert_data.php
+        learn.php
+        mysql.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+rakes@DESKTOP-R4406U6 MINGW64 /c/xampp/htdocs/learnphp (master)
+$ git add *
+
+rakes@DESKTOP-R4406U6 MINGW64 /c/xampp/htdocs/learnphp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Form.php
+        new file:   Get_Post.php
+        new file:   MySQL_create_db.php
+        new file:   Select_data.php
+        new file:   database.txt
+        new file:   function.php
+        new file:   insert_data.php
+        new file:   learn.php
+        new file:   mysql.php
+
+
+rakes@DESKTOP-R4406U6 MINGW64 /c/xampp/htdocs/learnphp (master)
+$ git commit -m "my commit"
+[master (root-commit) 5d4935c] my commit
+ 9 files changed, 820 insertions(+)
+ create mode 100644 Form.php
+ create mode 100644 Get_Post.php
+ create mode 100644 MySQL_create_db.php
+ create mode 100644 Select_data.php
+ create mode 100644 database.txt
+ create mode 100644 function.php
+ create mode 100644 insert_data.php
+ create mode 100644 learn.php
+ create mode 100644 mysql.php
+
+rakes@DESKTOP-R4406U6 MINGW64 /c/xampp/htdocs/learnphp (master)
+$ git branch -M main
+
+rakes@DESKTOP-R4406U6 MINGW64 /c/xampp/htdocs/learnphp (main)
+$ git remote add origin https://github.com/mr-rakesh-ranjan/myphp.git
+
+rakes@DESKTOP-R4406U6 MINGW64 /c/xampp/htdocs/learnphp (main)
+$ git push origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 7.40 KiB | 3.70 MiB/s, done.
+Total 11 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/mr-rakesh-ranjan/myphp.git
+ * [new branch]      main -> main
+
+rakes@DESKTOP-R4406U6 MINGW64 /c/xampp/htdocs/learnphp (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+
+
