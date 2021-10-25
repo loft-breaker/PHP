@@ -27,6 +27,8 @@ git remote add origin <link> // link which is available on repository
 
 git push origin main // push to repository
 
+-------------------------------------------------------------------------------------------------------------------------
+
 for example:- 
 rakes@DESKTOP-R4406U6 MINGW64 /c/xampp/htdocs/learnphp
 $ git status
